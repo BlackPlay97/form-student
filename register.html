@@ -5,43 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng ký học viên</title>
+    <style>
+        .info{
+            color: #1d38a7;
+            padding-right: 30px;
+        }
+    </style>
 </head>
 <body>
     <form action="">
-        <table>
-            <tr >
-                <td colspan="4">ĐĂNG KÝ HỌC VIÊN</td>
+        <table style="background-color: #fffcad;margin: 200px;">
+            <tr>
+                <td colspan="4" style="background-color: #d5fcd7; color: #1644fa;">ĐĂNG KÝ HỌC VIÊN</td>
             </tr>
             <tr>
-                <td>Họ và tên</td>
-                <td colspan="3"><input size="" type="text" name="fullname"></td>
+                <td class="info">Họ và tên</td>
+                <td colspan="3"><input size="30" type="text" name="fullname"></td>
             </tr>
             <tr>
-                <td>Ngày sinh</td>
-                <td colspan="3"><input type="text" name="birthday"></td>
+                <td class="info">Ngày sinh</td>
+                <td colspan="3"><input type="text" name="birthday" size="10"></td>
             </tr>
             <tr>
-                <td>Giới tính</td>
+                <td class="info">Giới tính</td>
                 <td colspan="3"><input type="radio" name="gender">Nam
                     <input type="radio" name="gender">Nữ</td>
             </tr>
             <tr>
-                <td>Địa chỉ</td>
+                <td class="info">Địa chỉ</td>
                 <td><textarea rows="3" cols="20" name="address"></textarea></td>
             </tr>
             <tr>
-                <td>Lớp</td>
+                <td class="info">Lớp</td>
                 <td><select name="class">
                     <option>- Chọn lớp -</option>
                 </select></td>
             </tr>
             <tr>
-                <td>Email</td>
-                <td><input type="text" name="email"></td>
+                <td class="info">Email</td>
+                <td><input type="text" name="email" size="15"></td>
             </tr>
             <tr>
-                <td>Điện thoại</td>
-                <td><input type="text" name="phonenumber"></td>
+                <td class="info">Điện thoại</td>
+                <td><input type="text" name="phonenumber" size="15"></td>
             </tr>
             <tr>
                 <td></td>
